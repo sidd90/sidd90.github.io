@@ -1,0 +1,37 @@
+body {
+  background-color: #ebebfd;
+}
+#header {
+  color: red;
+  font-size: 25pt;
+  text-align: center;
+}
+#subheader {
+  color: blue;
+  font-size: 20pt;
+  text-align: center;
+}
+img {
+  width: 80px;
+}
+#firstpic {
+  border-width: 2px;
+  border-color: red;
+  border-style: solid;
+  border: 2px blue dashed;
+}
+table {
+  border-collapse: collapse;
+  border: 1px red solid;
+  text-align: center;
+}
+td {
+  border: 1px blue solid;
+  padding: 10px 50px 10px 50px
+  }
+th {
+  padding: 10px 50px 10px 50px
+}
+ol {
+  box
+}
