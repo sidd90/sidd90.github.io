@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap playground</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -10,6 +9,43 @@
     <link rel="stylesheet" href="mybootstrapcss.css">
   </head>
   <body>
-    <h1>Hi! This is my Bootsrap wesbite!</h1>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-4">Fluid jumbotron</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h1>Header</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <a class="btn btn-danger" href="http://google.com">Everything</a>
+          <table class="table-bordered table-hover">
+            <tr>
+              <th>Awesome thing</th>
+            </tr>
+            <tr>
+              <td>Tacos</td>
+            </tr>
+            <tr>
+              <td>Bacon</td>
+            </tr>
+            <tr>
+              <td>Unicorn</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-4">
+          <h1>Column 2</h1>
+        </div>
+        <div class="col-4">
+          <h1>Column 3</h1>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
