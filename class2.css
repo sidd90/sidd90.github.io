@@ -33,5 +33,8 @@ th {
   padding: 10px 50px 10px 50px
 }
 ol {
-  box
+  background-color: blue;
+  color: white;
+  padding-right: 10
 }
+background-image: url()
