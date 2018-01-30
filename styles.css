@@ -1,0 +1,44 @@
+.d-block {
+  height: 600px;
+}
+
+.navbar-dark .navbar-brand {
+    color: #d5f436;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px
+}
+
+.nav-link {
+  color: #fff;
+  font-family: 'Patua One', cursive;
+  font-size: 20px
+}
+
+.subheader, .header {
+  text-align: center;
+  font-family: fantasy;
+}
+
+.header {
+    font-size: 100px
+}
+
+.subheader {
+  font-family: sans-serif;
+  font-size: 50px
+}
+
+.container-fluid {
+  text-align: center;
+  margin: 30px 0px 30px 0px
+}
+
+.container-fluid h1 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#eight {
+  height: 200px
+}
